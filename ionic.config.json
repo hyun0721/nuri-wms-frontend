@@ -1,0 +1,7 @@
+{
+  "name": "nuri_wms",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
