@@ -1,7 +1,7 @@
 <template>
     <ion-header :translucent="true">
         <ion-toolbar>
-            <ion-title>Header</ion-title>
+            <ion-title>Nuri WMS</ion-title>
         </ion-toolbar>
     </ion-header>
 </template>
