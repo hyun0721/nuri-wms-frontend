@@ -1,28 +1,32 @@
 <template>
   <ion-page>
-    <ion-header :translucent="true">
-      <ion-toolbar>
-        <ion-title>Blank</ion-title>
-      </ion-toolbar>
-    </ion-header>
-
+    <Header></Header>
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
-        <ion-toolbar>
-          <ion-title size="large">Blank</ion-title>
-        </ion-toolbar>
-      </ion-header>
-
-      <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <div style="padding:1rem 0.3rem;">
+        <b-container>
+            <b-row style="background-color: red; align-content: center;">
+              <b-col>1 of 3</b-col>
+              <b-col>2 of 3</b-col>
+              <b-col>3 of 3</b-col>
+            </b-row>
+            <b-row style="background-color: yellow;">
+              <b-col>1 of 3</b-col>
+              <b-col>2 of 3</b-col>
+              <b-col>3 of 3</b-col>
+            </b-row>
+        </b-container>
       </div>
     </ion-content>
+    <Footer></Footer>
   </ion-page>
 </template>
 
 <script setup lang="ts">
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
+import Header from '@/components/header/Header.vue';
+import Footer from '@/components/footer/Footer.vue';
+
+
 </script>
 
 <style scoped>
